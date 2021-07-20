@@ -1,0 +1,123 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body, header
+{
+	height: 100%;
+}
+
+html
+{
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.header
+{
+	background-image: url(../img/2.jpg);
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-attachment: fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+
+}
+
+.header: after
+{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom:0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.header > .box 
+{
+	z-index: 1;
+	text-align: center;
+}
+
+.h1 
+{
+	font-size: 4rem;
+	letter-spacing: 1px;
+}
+
+.subtitle
+{
+	font-size: 3rem;
+	padding: 2rem 0;
+	letter-spacing: 0.5px;
+}
+
+.first
+{
+	padding: 50px 0;
+	text-align:  center;
+
+}
+
+.h2
+{
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	letter-spacing: 0.7px;
+}
+
+.section-subtitle
+{
+	font-size: 2rem;
+	font-weight: 400;
+	
+}
+.subtitle2
+{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.h3
+{
+	font-size: 2.5rem;
+	margin: 2.5rem 0;
+}
+
+.subtitle3
+{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.subtitle4
+{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.h4
+{
+	font-size: 2.5rem;
+	margin: 2.5rem 0;
+}
+
+.end
+{
+	padding: 10px 0;
+	text-align:  center;
